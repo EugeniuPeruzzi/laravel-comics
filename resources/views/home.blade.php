@@ -20,26 +20,25 @@
     @include('partials.header')
     <!-- MAIN -->
     <main>
-    <div class="jumbotron-black">
-                <div class="container">
-                    <div class="row">
-                        <div class="col d-flex flex-wrap">
-                            @foreach($products as $product)    
-                                <div class="card" style="width: 18rem;">
-                                    <img src=" {{ $product['thumb'] }} " class="card-img-top" alt="">
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                            @endforeach
+        <div class="jumbotron-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex flex-wrap mt-5">
+                        @foreach($products as $product)    
+                        <div class="card-content mx-2 my-2">
+                            <div class="img-container-2">
+                                <img class="card" src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}">
+                            </div>
+                            <h6>{{ $product['series'] }}</h6>
                         </div>
-                        <div class="col-button ">
-                            <button class="btn">load more</button>
-                        </div>
+                        @endforeach
+                    </div>
+                    <div class="col-button ">
+                        <button class="btn">load more</button>
                     </div>
                 </div>
             </div>
-            <div class="jumbotron-blue">
+            <!-- <div class="jumbotron-blue">
                 <div class="container container-blue">
                     <div class="content">
                         <ul class="d-flex">
@@ -52,7 +51,8 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
+        </div>
     </main>
 </body>
 
