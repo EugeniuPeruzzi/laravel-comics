@@ -23,7 +23,7 @@
         <div class="jumbotron-black">
             <div class="container">
                 <div class="row">
-                    <div class="col d-flex flex-wrap mt-5">
+                    <div class="col d-flex flex-wrap my-5">
                         @foreach($products as $product)    
                         <div class="card-content mx-2 my-2">
                             <div class="img-container-2">
@@ -33,25 +33,27 @@
                         </div>
                         @endforeach
                     </div>
-                    <div class="col-button ">
-                        <button class="btn">load more</button>
+                    <div class="col-button w-100% d-flex justify-content-center my-4">
+                        <button class="btn btn-primary text-uppercase py-2 px-5 rounded-0 fw-bolder">load more</button>
                     </div>
                 </div>
             </div>
-            <!-- <div class="jumbotron-blue">
-                <div class="container container-blue">
-                    <div class="content">
-                        <ul class="d-flex">
-                            <li :key="index" v-for="(list, index) in lists" class="d-flex align-center">
-                                <div class="img-container">
-                                    <img :src="list.immg" :alt="list.lable">
-                                </div>
-                                <h4 class="uppercase"></h4>
-                            </li>
-                        </ul>
+            <div class="jumbotron-blue">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <ul class="d-flex">
+                                <li :key="index" v-for="(list, index) in lists" class="d-flex align-center">
+                                    <div class="img-container">
+                                        <img :src="list.immg" :alt="list.lable">
+                                    </div>
+                                    <h4 class="uppercase"></h4>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </main>
 </body>

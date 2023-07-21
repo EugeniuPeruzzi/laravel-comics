@@ -217,7 +217,30 @@ return [
         ],
     
 
-    ]
+    ],
+
+    'lists' => [
+        [
+           "immg" => '../resources/img/buy-comics-digital-comics.png',
+            "lable" => 'digital comics'
+        ],
+        [
+           "immg" => '../resources/img/buy-comics-merchandise.png',
+            "lable" => 'dc merchandise'
+        ],
+        [
+           "immg" => '../resources/img/buy-comics-shop-locator.png',
+            "lable" => 'subscription'
+        ],
+        [
+           "immg" => '../resources/img/buy-comics-subscriptions.png',
+            "lable" => 'comic shop locator'
+        ],
+        [
+           "immg" => '../resources/img/buy-dc-power-visa.svg',
+            "lable" => 'dc power visa'
+        ]
+    ],
     
-    ];
+];
 
