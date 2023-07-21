@@ -23,7 +23,7 @@ return [
             'lable' => 'DC POWE VISA'
         ]
     ],
-    
+
     'objs' => [
         [
             'label' => 'Character',
@@ -72,4 +72,135 @@ return [
         ],
 
     ],
+    
+    'mini-list' => [
+        [
+            'label' => 'Shop DC',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Shop DC Collectibles',
+            'link' => '#',
+            'acive' => false
+        ],
+    ],
+
+    'dc' => [
+        [
+            'label' => 'Term of Use',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Pravacy policy (New)',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Ad Choices',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Advertising',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Jobs',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Subscriptions',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Talent Workshops',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'CPSC Certificates',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Ratings',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Shop Help',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'Contact us',
+            'link' => '#',
+            'acive' => false
+        ],
+
+    ],
+
+    'sites' => [
+        [
+            'label' => 'DC',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'MAD Magazine',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'DC Kids',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'DC Universe',
+            'link' => '#',
+            'acive' => false
+        ],
+        [
+            'label' => 'DC Power Visa',
+            'link' => '#',
+            'acive' => false
+        ],
+
+    ],
+
+    'imgs' => [
+        [
+            'src' => '../src/assets/img/footer-facebook.png',
+            'link' => '#',
+            'lable' => 'Facebook'
+        ],
+        [
+            'src' => '../src/assets/img/footer-twitter.png',
+            'link' => '#',
+            'lable' => 'Twitter'
+        ],
+        [
+            'src' => '../src/assets/img/footer-youtube.png',
+            'link' => '#',
+            'lable' => 'Youtube'
+        ],
+        [
+            'src' => '../src/assets/img/footer-pinterest.png',
+            'link' => '#',
+            'lable' => 'Pinterest'
+        ],
+        [
+            'src' => '../src/assets/img/footer-periscope.png',
+            'link' => '#',
+            'lable' => 'Periscope'
+        ],
+    ]
+
+
 ];
