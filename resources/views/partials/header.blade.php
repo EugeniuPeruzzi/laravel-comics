@@ -69,7 +69,14 @@
                             <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">shop</a>
                             </li>
+                            <li class="padding-hr header-li">
+                                <div class="search d-flex s-control">
+                                    <input type="text" class="form-control s-bar" placeholder="">
+                                    <i class="fa fa-search align-self-center"></i>
+                                </div>
+                            </li>
                         </ul>
+                        
                     </div>
                 </div>
             </div>
