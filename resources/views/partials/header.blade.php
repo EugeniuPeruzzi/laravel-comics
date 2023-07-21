@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col d-flex align-items-star justify-content-end">            
-                            <ul class="d-flex list-unstyled fw-bolder me-5 text-uppercase">
+                            <ul class="d-flex list-unstyled fw-bolder me-5 text-uppercase text-white">
                                 <li class="me-5">dc power&#8480;visa&#174;</li>
                                 <li> additional dc sites</li>
                             </ul>
@@ -31,13 +31,13 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row d-flex justify-content-center align-items-center header-s">
+                <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-2">
                         <div class="img-container">
                             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Dc Logo">
                         </div>
                     </div>
-                    <div class="col-10">
+                    <div class="col-10 header-s">
                         <ul class="d-flex align-items-center text-uppercase list-unstyled">
                             <li class="padding-hr">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">characters</a>
@@ -75,7 +75,7 @@
             </div>
             <div class="jumbotron">
                 <div class="box-btn">
-                    <button class="btn btn-primary p-2 text-uppercase">current series</button>
+                    <button class="btn btn-primary py-2 px-4 text-uppercase fw-bold fs-4 rounded-0 ">current series</button>
                 </div>
             </div>
         </header>

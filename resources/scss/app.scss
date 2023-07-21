@@ -15,7 +15,7 @@ img {
 
 
 li:hover {
-    border-bottom: #0282F9 5px solid;
+    border-bottom: #0282F9 3px solid;
 
     a {
         color: #0282F9;
@@ -53,4 +53,8 @@ li:hover {
 
 .padding-hr {
     padding: 40px 0px;
+}
+
+.text-white {
+    color: #fff;
 }
