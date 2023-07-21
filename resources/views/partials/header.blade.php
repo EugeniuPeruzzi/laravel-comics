@@ -18,6 +18,18 @@
 <body>
     <main>
         <header>
+            <div class="header-f">
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-flex align-items-star justify-content-end">            
+                            <ul class="d-flex list-unstyled fw-bolder me-5 text-uppercase">
+                                <li class="me-5">dc power&#8480;visa&#174;</li>
+                                <li> additional dc sites</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center header-s">
                     <div class="col-2">
