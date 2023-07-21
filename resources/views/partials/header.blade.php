@@ -22,9 +22,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col d-flex align-items-star justify-content-end">            
-                            <ul class="d-flex list-unstyled fw-bolder me-5 text-uppercase text-white">
-                                <li class="me-5">dc power&#8480;visa&#174;</li>
-                                <li> additional dc sites</li>
+                            <ul class="d-flex list-unstyled fw-bolder me-5 text-uppercase ">
+                                <li class="me-5"><a href="/" class="text-white">dc power&#8480;visa&#174;</a></li>
+                                <li><a href="/" class="text-white"> additional dc sites</a></li>
                             </ul>
                         </div>
                     </div>

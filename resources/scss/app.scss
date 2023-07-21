@@ -12,6 +12,9 @@ img {
 
 // HEADER
 
+a {
+    text-decoration: none;
+}
 
 
 li:hover {
@@ -57,4 +60,15 @@ li:hover {
 
 .text-white {
     color: #fff;
+}
+
+// MAIN
+
+.jumbotron-black {
+    background-color: #1C1C1C;
+}
+
+.jumbotron-blue {
+    background-color: #0282F9;
+    padding: 50px 0px;
 }

@@ -16,11 +16,41 @@
 </head>
 
 <body>
+    <!-- HEADER -->
     @include('partials.header')
+    <!-- MAIN -->
     <main>
-
+    <div class="jumbotron-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            @foreach($products as $product)    
+                                <div class="card-container d-flex flex-wrap">
+            
+                                </div>
+                            @endforeach
+                        </div>
+                        <div class="col-button ">
+                            <button class="btn">load more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron-blue">
+                <div class="container container-blue">
+                    <div class="content">
+                        <ul class="d-flex">
+                            <li :key="index" v-for="(list, index) in lists" class="d-flex align-center">
+                                <div class="img-container">
+                                    <img :src="list.immg" :alt="list.lable">
+                                </div>
+                                <h4 class="uppercase"></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     </main>
-
 </body>
 
 </html>
