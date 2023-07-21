@@ -27,10 +27,11 @@
                                 <ul class="list-unstyled">
                                     @foreach($objs as $obj)
                                         <li>
-                                            <a class="text-white" href="" >{{ $obj['label'] }}</a>
+                                            <a class="linkz" href="#" >{{ $obj['label'] }}</a>
                                         </li>
                                     @endforeach
                                 </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
