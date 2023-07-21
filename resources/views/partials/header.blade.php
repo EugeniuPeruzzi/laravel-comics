@@ -39,34 +39,34 @@
                     </div>
                     <div class="col-10 header-s">
                         <ul class="d-flex align-items-center text-uppercase list-unstyled">
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">characters</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">comics</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">movie</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">tv</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">games</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">collectebles</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">videos</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">fans</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">news</a>
                             </li>
-                            <li class="padding-hr">
+                            <li class="padding-hr header-li">
                                 <a href="{{ route('home') }}" class="list-group-item fw-bolder mx-3">shop</a>
                             </li>
                         </ul>
