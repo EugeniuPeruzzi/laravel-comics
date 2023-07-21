@@ -18,6 +18,7 @@
 <body>
     <main>
        <footer>
+            <!-- FIRST FOOTER -->
             <div class="jumbotron-footer">
                 <div class="container">
                     <div class="row dc-background pt-5">
@@ -64,6 +65,30 @@
                                     @endforeach
                                 </ul>
                             </div>
+                        </div>
+                        <span>All Sites Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rightes reserved.</span>
+                        <a href="#">Coockies Settings</a>
+                    </div>
+                </div>
+            </div>
+            <!-- SECOND FOOTER -->
+            <div class="jumbotron-social">
+                <div class="container">
+                    <div class="row d-flex space-between">
+                        <div class="col-6">
+                            <button class="text-uppercase btn border-primary rounded-0 text-white px-3 py-2">sign-up now!</button>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <h2 class="text-uppercase follow me-4">follow us</h2>
+                            <ul class="d-flex list-unstyled">
+                                @foreach($imgs as $obj)
+                                    <li class="me-4">
+                                        <div class="img-container-social">
+                                            <a href="{{ $obj['link'] }}" class="linkz"><img src="{{ Vite::asset($obj['src']) }}" alt="{{ $obj['lable']}}"></a>
+                                        </div>
+                                    </li>
+                                @endforeach
+                            </ul>
                         </div>
                     </div>
                 </div>

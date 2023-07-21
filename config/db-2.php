@@ -176,27 +176,27 @@ return [
 
     'imgs' => [
         [
-            'src' => '../src/assets/img/footer-facebook.png',
+            'src' => 'resources/img/footer-facebook.png',
             'link' => '#',
             'lable' => 'Facebook'
         ],
         [
-            'src' => '../src/assets/img/footer-twitter.png',
+            'src' => 'resources/img/footer-twitter.png',
             'link' => '#',
             'lable' => 'Twitter'
         ],
         [
-            'src' => '../src/assets/img/footer-youtube.png',
+            'src' => 'resources/img/footer-youtube.png',
             'link' => '#',
             'lable' => 'Youtube'
         ],
         [
-            'src' => '../src/assets/img/footer-pinterest.png',
+            'src' => 'resources/img/footer-pinterest.png',
             'link' => '#',
             'lable' => 'Pinterest'
         ],
         [
-            'src' => '../src/assets/img/footer-periscope.png',
+            'src' => 'resources/img/footer-periscope.png',
             'link' => '#',
             'lable' => 'Periscope'
         ],

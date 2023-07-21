@@ -98,7 +98,7 @@ h6 {
     width: 20%;
 }
 
-// FOOTER
+// FOOTER ONE
 
 .jumbotron-footer {
     background-image: url(../img/footer-bg.jpg);
@@ -107,7 +107,8 @@ h6 {
 
 }
 
-.linkz {
+.linkz,
+span {
     color: #959595;
 }
 
@@ -120,4 +121,19 @@ h6 {
     background-repeat: no-repeat;
     background-position: right top 50%;
     padding-bottom: 70px;
+}
+
+// FOOTER TWO
+.jumbotron-social {
+    background-color: #303030;
+    padding: 30px 0px;
+}
+
+.follow {
+    color: #0282F9;
+    font-weight: 600;
+}
+
+.img-container-social {
+    width: 100%;
 }
