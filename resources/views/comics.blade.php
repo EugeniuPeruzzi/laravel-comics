@@ -5,10 +5,10 @@
     <div class="jumbotron-thumbnail">
         <div class="container">
             <div class="row">
-                <div class="col position-relative">
-                    <div class="content-image position-absolute">
+                <div class="col">
+                    <div class="content-image position-relative">
                         <div class="img-container-comics position-relative">
-                            <img src="{{ $product['thumb'] }}" alt="">
+                            <img class="comic-ratio" src="{{ $product['thumb'] }}" alt="">
                             <span class="position-absolute top-0 start-0 text-uppercase thumb-background p-1">comic
                                 book</span>
                             <span
@@ -25,21 +25,24 @@
         <div class="row mt-5">
             <div class="col-8">
                 <h4 class="card-text-color fw-bolder">{{ $product['title'] }}</h4>
-                <div class="">
+                <div class="border border-end-0">
                     <div class=" fw-bolder  aviability py-2 px-4 d-flex justify-content-between">
                         <div class="nested-span">
                             <span class="text-green">U.S Price:</span> <span
                                 class="text-white">{{ $product['price'] }}</span>
                         </div>
                         <div class="text-uppercase text-green">available</div>
-                        <div class="aviability text-white">Check Aviability</div>
-                    </div>
-                    <div class="description mt-3">
-                        <p>{{ $product['description'] }}</p>
+                        <div class="aviability text-white ">Check Aviability</div>
                     </div>
                 </div>
+                <div class="description mt-3">
+                    <p>{{ $product['description'] }}</p>
+                </div>
             </div>
-            <div class="col-3 p-4">
+            <div class="col-3 d-flex flex-column justify-content-end">
+                <div class="text-ad text-end">
+                    <span class="text-uppercase fw-semibold">advertisement</span>
+                </div>
                 <img src="{{ Vite::asset('public/adv.jpg') }}" alt="">
             </div>
         </div>
