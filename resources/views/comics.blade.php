@@ -14,7 +14,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-6 mt-5">
+            <div class="col-9 mt-5">
                 <h4>{{ $product['title'] }}</h4>
                 <div class="aviability d-flex justify-content-between">
                     <div class="">
@@ -25,6 +25,9 @@
                 <div class="description mt-3">
                     <p>{{ $product['description'] }}</p>
                 </div>
+            </div>
+            <div class="col-3">
+                <img src="{{ Vite::asset('public/adv.jpg') }}" alt="">
             </div>
         </div>
     </div>
@@ -82,6 +85,4 @@
             </div>
         </div>
     </div>
-    {{ $product['title'] }}
-    {{ $product['title'] }}
 @endsection
