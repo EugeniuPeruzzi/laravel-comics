@@ -6,10 +6,11 @@
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-wrap my-5">
-                    @foreach ($products as $product)
+                    @foreach ($products as $id => $product)
                         <div class="card-content mx-2 my-2">
                             <div class="img-container-2">
-                                <img class="card" src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}">
+                                <a href="{{ route('comics' $id) }}"><img class="card" src="{{ $product['thumb'] }}"
+                                        alt="{{ $product['title'] }}"></a>
                             </div>
                             <h6>{{ $product['series'] }}</h6>
                         </div>
