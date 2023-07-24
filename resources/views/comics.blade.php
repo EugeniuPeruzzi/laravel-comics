@@ -1,83 +1,103 @@
 @extends('layouts.app')
 
 @section('content')
+    {{-- Comic thumb --}}
     <div class="jumbotron-thumbnail">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <div class="img-container-comics">
-                        <img src="{{ $product['thumb'] }}" alt="">
+                <div class="col position-relative">
+                    <div class="content-image position-absolute">
+                        <div class="img-container-comics position-relative">
+                            <img src="{{ $product['thumb'] }}" alt="">
+                            <span class="position-absolute top-0 start-0 text-uppercase thumb-background p-1">comic
+                                book</span>
+                            <span
+                                class=" text-uppercase thumb-background position-absolute bottom-0 start-50 translate-middle-x w-100 text-center">view
+                                gallery</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    {{-- Description of comic --}}
     <div class="container">
-        <div class="row">
-            <div class="col-9 mt-5">
-                <h4>{{ $product['title'] }}</h4>
-                <div class="aviability d-flex justify-content-between">
-                    <div class="">
-                        U.S Price: {{ $product['price'] }}
+        <div class="row mt-5">
+            <div class="col-8">
+                <h4 class="card-text-color fw-bolder">{{ $product['title'] }}</h4>
+                <div class="">
+                    <div class=" fw-bolder  aviability py-2 px-4 d-flex justify-content-between">
+                        <div class="nested-span">
+                            <span class="text-green">U.S Price:</span> <span
+                                class="text-white">{{ $product['price'] }}</span>
+                        </div>
+                        <div class="text-uppercase text-green">available</div>
+                        <div class="aviability text-white">Check Aviability</div>
                     </div>
-                    <div class="">Check Aviability</div>
-                </div>
-                <div class="description mt-3">
-                    <p>{{ $product['description'] }}</p>
+                    <div class="description mt-3">
+                        <p>{{ $product['description'] }}</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 p-4">
                 <img src="{{ Vite::asset('public/adv.jpg') }}" alt="">
             </div>
         </div>
     </div>
+    {{-- Writers of comics --}}
     <hr>
     <div class="jumbotron-comic">
         <div class="container">
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-6">
                     <table class="table table-striped">
+                        {{-- TALENT PART --}}
                         <thead>
                             <tr>
-                                <th scope="col">Talent</th>
-                                <th scope="col"></th>
+                                <th><span class="card-text-color fs-5">Talent</span></th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row">Art by:</th>
-                                <td><span>{{ implode(', ', $product['artists']) }}</span></td>
+                                <th><span class="card-text-color fs-6">Art by:</span></th>
+                                <td><span
+                                        class="artist-text-color fw-semibold">{{ implode(', ', $product['artists']) }}</span>
+                                </td>
                             </tr>
                             <tr>
-                                <th scope="row">Written by:</th>
-                                <td><span>{{ implode(', ', $product['writers']) }}</span></td>
+                                <th><span class="card-text-color fs-6">Art by:</span></th>
+                                <td><span
+                                        class="artist-text-color fw-semibold">{{ implode(', ', $product['writers']) }}</span>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col-6">
                     <table class="table table-striped">
+                        {{-- SPECS PART --}}
                         <thead>
                             <tr>
-                                <th scope="col">Specs</th>
-                                <th scope="col"></th>
-                                <th scope="col"></th>
+                                <th><span class="card-text-color fs-5">Specs</span></th>
+                                <th></th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row">Series:</th>
+                                <th><span class="card-text-color fs-6">Series:</span></th>
                                 <td>
-                                    <h6>{{ $product['series'] }}</h6>
+                                    <h6 class="artist-text-color fw-semibold">{{ $product['series'] }}</h6>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">U.S. Price:</th>
-                                <td><span>{{ $product['price'] }}</span></td>
+                                <th><span class="card-text-color fs-6">U.S. Price:</span></th>
+                                <td><span class="black-text">{{ $product['price'] }}</span></td>
                             </tr>
                             <tr>
-                                <th scope="row">On Sale Date:</th>
-                                <td><span>{{ $product['sale_date'] }}</span></td>
+                                <th><span class="card-text-color fs-6">On Sale Date:</span></th>
+                                <td><span class="black-text">{{ $product['sale_date'] }}</span></td>
                             </tr>
                         </tbody>
                     </table>
