@@ -14,4 +14,3 @@ Route::get('/', function () {
 
     return view('home', compact('products', 'lists', 'objs', 'mini_lists', 'dc_s', 'sites', 'imgs'));
 }) -> name('home');
-
