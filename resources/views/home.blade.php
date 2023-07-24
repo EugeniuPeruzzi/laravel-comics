@@ -3,7 +3,11 @@
 @section('content')
     <!-- COMICS PART -->
     <div class="jumbotron-black">
-        <div class="container">
+        <div class="container position-relative">
+            <div class="box-btn position-absolute ">
+                <button class="btn btn-primary py-2 px-4 text-uppercase fw-bold fs-4 rounded-0 ">current
+                    series</button>
+            </div>
             <div class="row">
                 <div class="col d-flex flex-wrap my-5">
                     @foreach ($products as $id => $product)

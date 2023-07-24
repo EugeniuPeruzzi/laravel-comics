@@ -21,9 +21,10 @@
             <div class="header-f">
                 <div class="container">
                     <div class="row">
-                        <div class="col d-flex align-items-star justify-content-end">            
+                        <div class="col d-flex align-items-star justify-content-end">
                             <ul class="d-flex list-unstyled fw-bolder me-5 text-uppercase ">
-                                <li class="me-5"><a href="/" class="text-white">dc power&#8480;visa&#174;</a></li>
+                                <li class="me-5"><a href="/" class="text-white">dc power&#8480;visa&#174;</a>
+                                </li>
                                 <li><a href="/" class="text-white"> additional dc sites</a></li>
                             </ul>
                         </div>
@@ -76,14 +77,12 @@
                                 </div>
                             </li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </div>
             <div class="jumbotron">
-                <div class="box-btn">
-                    <button class="btn btn-primary py-2 px-4 text-uppercase fw-bold fs-4 rounded-0 ">current series</button>
-                </div>
+
             </div>
         </header>
     </main>
